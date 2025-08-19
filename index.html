@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calzados</title>
+     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  </head>
+
+
+<body>
+  
+        
+    <header class="principal" id="inicio">
+
+        
+        <button id="cambiarF" class="btn-color mt-3 p-2" aria-label="cambiar a modo oscuro"><i class="bi bi-moon-stars-fill" ></i></button>
+         <button id="boton-menu"> MENU </button>
+           <nav id="menu" class="menu">
+
+             <ul class="quitar">
+              
+               <li id="menu-item" class="menu-item"><a href="#nosotros">Nosotros</a></li>
+               <li id="menu-item" class="menu-item"><a href="#damas">Damas</a></li>
+               <li id="menu-item" class="menu-item"><a href="#hombres">Hombres</a></li>
+               <li id="menu-item" class="menu-item"> <a href="#niños">Niños</a></li>
+               <li id="menu-item" class="menu-item"><a href="mailto:camilososa363@gmail.com" id="contacto"> 
+                <strong style="opacity: 1; color: #000000; background-color: rgb(231, 185, 124);">mail</strong></a></li>
+               <li id="menu-item" class="menu-item"><a href="tel:+54247753324"> <strong style="opacity: 1; color: #000000; background-color: rgb(231, 185, 124);">WhatsApp</strong></a></li>
+ 
+   
+
+              </ul>
+
+            </nav>
+        
+        
+        <img src="img/logo-empresa.png" alt="logo-empresa" class="logo">
+
+
+
+        <h1>C&L Calzados</h1>
+     
+        
+ <div class="login-container">
+        <h2>Clientes</h2>
+        <form>
+    <div class="registro-usuario">
+        <label for="username">Usuario:</label>
+        <input type="text" id="username" name="username" placeholder="  Ingrese su usuario" required>
+    </div>
+    <div class="registro-contraseña">
+        <label for="passwordUsuario">  Contraseña:</label> <br>
+
+        <input type="password" id="passwordUsuario" name="passwordUsuario" placeholder=" Ingrese su contraseña" required>
+    </div> <br>
+    <button type="submit">Iniciar Sesión</button>
+</form>
+    </div>
+    </header>
+   
+      
+
+
+<main>
+  <section class="seccion1" id="nosotros" >
+    <header class="nosotros">
+    <div class="page1">
+    <h2>Nosotros</h2>
+    <p>Somos una empresa con más de 20 años de experiencia en el rubro. 
+      Nos destacamos por la calidad de nuestros productos. <br>
+      Estamos para brindarte atención personalizada, muchos benefecios exclusivo: regalos de productos , gift card y 
+      muchas sorpresas te esperan.
+      Además, toda la info 
+      de todo los medios de pago para que puedas llevarte eso que tanto querés. <br>
+      Si sos cliente, te invitamos a registrarte en nuestra pagina. </p>
+    </div>
+    </header>
+    <footer class="footer-seccion">
+        <a href="#inicio">
+   <button type="button" class="seccion" id="#inicio">Menú</button>
+  </a>
+
+<a href="#nosotros" class="seccion">
+  <button type="button" class="seccion"    id="#nosotros" >Nosotros</button>
+  </a>
+
+<a href="#damas" class="seccion2">
+   <button type="button" class="seccion" id="#calzados">Damas</button>  
+  </a>
+  <a href="#hombres" class="seccion">
+   <button type="button" class="seccion"   id="#calzados">Hombres</button>  
+  </a>
+   <a href="#niños" class="seccion">
+   <button type="button"class="seccion" id="#inicio">Niños</button>
+  </a>
+
+
+
+
+  
+
+
+
+    </footer>
+
+  </section>
+<section> <h3>Registro</h3>
+
+      <div id="registro" class="section2">
+        <form action="dise.html" method="post"  class="formulario">
+      <fieldset>
+        
+         <legend>Complete sus datos.</legend>
+
+<div class="form-columns">
+
+   <div class="fila">
+  <label for="name">Nombre/es</label> 
+      <input type="text" id="name" name="nombre">
+   <label for="apellido">Apellido</label>
+   <input type="text" name="apellido" id="apellido">
+   </div>
+   <div class="fila">
+   <label for="mail">Correo Electronico.</label>
+   <input type="email" id="mail">
+   <label for="password">Contraseña.</label>
+   <input type="password" name="contraseña" maxlength="10" id="password" required>
+   </div>
+   <div class="fila">
+   <label for="dni">Documento</label>
+   <input type="number" id="dni">
+   <label for="date">Fecha Nac.</label>
+   <input type="date" name="fecha_nacimiento" id="date">
+   </div>
+    
+    <div class="form-buttons">
+   <input type="submit" value="Enviar" class="boton">
+   <input type="reset" value="Restablecer" class="boton">
+    </div>
+
+  </div>
+    </header>
+   </fieldset> 
+        </form>
+      </div>
+    </section>
+  </main>
+    <footer class="footer-seccion">
+ <a href="#inicio">
+   <button type="button" id="#inicio">Menú</button>
+  </a>
+
+<a href="#nosotros" class="seccion">
+  <button type="button"  id="#nosotros" >Nosotros</button>
+  </a>
+
+
+   <a href="#damas" class="seccion">
+   <button type="button" id="#damas">Damas</button>
+  </a>
+
+<a href="#hombres" class="seccion">
+  <button type="button"  id="#nosotros" >Hombres</button>
+  </a>
+
+<a href="#niños" class="seccion">
+   <button type="button" id="#calzados">Niños</button>  
+  </a>
+  
+  </footer>
+    
+
+
+  <section class="seccion2">
+  <header class="damas" id="damas">
+        
+       <div class="div-seccion2">
+
+      <h3>Damas</h3>
+      <div id="carouselDamas" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/zapatosdama.jpg" class="d-block w-100" alt="zapatos-damas">
+    </div>
+    <div class="carousel-item">
+      <img src="img/botaDama.jpg" class="d-block w-100" alt="botascortas-damas">
+    </div>
+    <div class="carousel-item">
+      <img src="img/botasDama1.jpg" class="d-block w-100" alt="botasLargas-damas">
+    </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselDamas" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselDamas" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  </div></div></div>
+</header>
+
+<footer class="footer-seccion">
+ <a href="#inicio">
+   <button type="button" id="#inicio">Menú</button>
+  </a>
+
+<a href="#nosotros" class="">
+  <button type="button"  id="#nosotros" >Nosotros</button>
+  </a>
+
+<a href="#hombres" class="">
+   <button type="button" id="#calzados">Hombres</button>  
+   <a href="#niños" class="pag3">
+   <button type="button" id="#calzados">Niños</button>  
+  </a>
+  </a>
+  </footer>
+
+</section>
+
+ <section class="seccion3">
+  <header class="hombres" id="hombres">
+
+    <div class="div-seccion3">
+      
+      <h3>Hombres</h3>
+      <div id="carouselhombres" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/zapatillaHomb2.jpg" class="d-block w-100" alt="Zapatllas-hombre">
+    </div>
+    <div class="carousel-item">
+      <img src="img/zapatillasRojas.jpg" class="d-block w-100" alt="zapatillasRojas-hombre">
+    </div>
+    <div class="carousel-item">
+      <img src="img/zapashombres1.jpg" class="d-block w-100" alt="zapaUrbana-hombre">
+    </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselhombres" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselhombres" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  </div>
+</header>
+<footer class="footer-seccion">
+ <a href="#inicio">
+   <button type="button" id="#inicio">Menú</button>
+  </a>
+
+<a href="#nosotros" class="">
+  <button type="button"  id="#nosotros" >Nosotros</button>
+  </a>
+
+<a href="#damas" class="">
+   <button type="button" id="#calzados">Damas</button>  
+  </a>
+  <a href="#niños" class="">
+   <button type="button" id="#calzados">Niños</button>  
+  </a>
+  </footer>
+
+</section>
+
+ <section class="seccion4">
+  <header class="niños" id="niños">
+    <div class="div-seccion4">
+      
+      <h3>Niños</h3>
+      <div id="carouselNiños" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/zapatillasNena5.jpg" class="d-block w-100" alt="zapatillas-nena">
+    </div>
+    <div class="carousel-item">
+      <img src="img/zapatillasNene3.jpg" class="d-block w-100" alt="zaptillas-nene">
+    </div>
+    <div class="carousel-item">
+      <img src="img/zapatillasNene2.jpg" class="d-block w-100" alt="zapatillas-nena">
+    </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselNiños" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    <span class="visually-hidden" style="color: black;">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselNiños" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  </div>
+</header>
+<footer class="footer-seccion">
+ <a href="#inicio">
+   <button type="button" id="#inicio">Menú</button>
+  </a>
+
+<a href="#nosotros" class="page2">
+  <button type="button"  id="#nosotros" >Nosotros</button>
+  </a>
+
+<a href="#damas" class="pag3">
+   <button type="button" id="#calzados">Damas</button>  
+  </a>
+  <a href="#hombres" class="pag3">
+   <button type="button" id="#calzados">Hombres</button>  
+  </a>
+  
+  </footer>
+
+
+</section>
+  </main>
+     
+   
+    
+
+  
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="java/java.js"></script>
+
+</body>
+
+
+<footer class="footer-final"> 
+  <p>Todos los derechos reservados@2025</p> 
+</footer>
+
+
+
+</html>
